@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    border: solid cornsilk 1px;
+    box-shadow: gray 2px 1px 4px 1px;
+}
+.progress-container {
+  width: 100%; /* Or a fixed width like 300px */
+  height: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensures the inner bar stays within bounds */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4CAF50; /* Green fill color */
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px; /* Vertically centers the text */
+  color: white; /* Text color */
+ /* Smooth transition for width changes */
+}
